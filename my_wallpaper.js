@@ -1,7 +1,7 @@
 //your parameter variables go here!
 let planetX  =180; // 150
 let planetY = 250; // 150
-let planetS = 90; // 50
+let planetS = 50; // 50
 
 let bigPlanetX = 100; // 190
 let bigPlanetY = 240;  // 70
@@ -13,13 +13,13 @@ let ringPlanetS = 65; //65
 
 
 function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.output_mode(DEVELOP_GLYPH);
   pWallpaper.resolution(NINE_LANDSCAPE);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 300;
-  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.cell_width  = 350;
+  pWallpaper.grid_settings.cell_height = 350;
   pWallpaper.grid_settings.row_offset  = 20;
 }
 
