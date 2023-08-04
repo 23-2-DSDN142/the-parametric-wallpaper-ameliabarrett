@@ -8,14 +8,17 @@ Your final settings.txt will look something like this when you are finished:
 
 Wallpaper 1:
 
-//your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+let planetX  =180; // 180
+let planetY = 150; // 150
+let planetS = 50; // 50
+let bigPlanetX = 190; // 190
+let bigPlanetY = 70;  // 70
+let bigPlanetS = 80 // 80
+let ringPlanetX = 220; // 220
+let ringPlanetY = 40; // 40
+let ringPlanetS = 65; //65
+let starSize = 5 //5
+
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -23,9 +26,9 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.cell_width  = 300;
+  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.row_offset  = 20;
 }
 
 /////////////////////////////////
@@ -51,3 +54,181 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_height = 100;
   pWallpaper.grid_settings.row_offset  = 0;
 }
+
+/////////////////////////////////
+
+Wallpaper 3:
+
+let planetX  =190; // 180
+let planetY = 180; // 150
+let planetS = 50; // 50
+let bigPlanetX = 290; // 190
+let bigPlanetY = 150;  // 70
+let bigPlanetS = 80 // 80
+let ringPlanetX = 180; // 220
+let ringPlanetY = 1; // 40
+let ringPlanetS = 65; //65
+let starSize = 0 //5
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); 
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 300;
+  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.row_offset  = 150;
+}
+
+
+/////////////////////////////////
+
+Wallpaper 4:
+
+//your parameter variables go here!
+let rect_width  = 10;
+let rect_height = 10;
+let paramter1 = 20;
+let paramter2 = false;
+let paramter3 = 50; 
+let paramter4 = 80; 
+let paramter5 = 30;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+
+
+/////////////////////////////////
+
+Wallpaper 5:
+
+//your parameter variables go here!
+let rect_width  = 10;
+let rect_height = 10;
+let paramter1 = 20;
+let paramter2 = false;
+let paramter3 = 50; 
+let paramter4 = 80; 
+let paramter5 = 30;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+
+/////////////////////////////////
+
+Wallpaper 6:
+
+//your parameter variables go here!
+let rect_width  = 10;
+let rect_height = 10;
+let paramter1 = 20;
+let paramter2 = false;
+let paramter3 = 50; 
+let paramter4 = 80; 
+let paramter5 = 30;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+
+/////////////////////////////////
+
+Wallpaper 7:
+
+//your parameter variables go here!
+let rect_width  = 10;
+let rect_height = 10;
+let paramter1 = 20;
+let paramter2 = false;
+let paramter3 = 50; 
+let paramter4 = 80; 
+let paramter5 = 30;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+
+/////////////////////////////////
+
+Wallpaper 8:
+
+//your parameter variables go here!
+let rect_width  = 10;
+let rect_height = 10;
+let paramter1 = 20;
+let paramter2 = false;
+let paramter3 = 50; 
+let paramter4 = 80; 
+let paramter5 = 30;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+/////////////////////////////////
+
+Wallpaper 9:
+
+//your parameter variables go here!
+let rect_width  = 10;
+let rect_height = 10;
+let paramter1 = 20;
+let paramter2 = false;
+let paramter3 = 50; 
+let paramter4 = 80; 
+let paramter5 = 30;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
