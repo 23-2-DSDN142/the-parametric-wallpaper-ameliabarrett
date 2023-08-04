@@ -1,30 +1,33 @@
 //your parameter variables go here!
-let planetX  =180; // 150
-let planetY = 250; // 150
+let planetX  =180; // 180
+let planetY = 150; // 150
 let planetS = 50; // 50
 
-let bigPlanetX = 100; // 190
-let bigPlanetY = 240;  // 70
+let bigPlanetX = 190; // 190
+let bigPlanetY = 70;  // 70
 let bigPlanetS = 80 // 80
 
-let ringPlanetX = 140; // 220
-let ringPlanetY = 80; // 40
+let ringPlanetX = 220; // 220
+let ringPlanetY = 40; // 40
 let ringPlanetS = 65; //65
+
+let starY = 20
+let starSize = 5 //5
 
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(DEVELOP_GLYPH);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(FIT_TO_SCREEN);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 350;
-  pWallpaper.grid_settings.cell_height = 350;
+  pWallpaper.grid_settings.cell_width  = 300;
+  pWallpaper.grid_settings.cell_height = 300;
   pWallpaper.grid_settings.row_offset  = 20;
 }
 
 function wallpaper_background() {
-  if(mouseX > 150){ 
+  if(mouseX < 150){ 
     background(24,47,102); // navy blue
    }
    else{ 
@@ -34,26 +37,58 @@ function wallpaper_background() {
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
   
-  if(mouseX > 150){ 
+  if(mouseX < 150){ 
     stroke(253, 255, 199); //cream stars
-    drawStar(65,180,10);
-    drawStar(230,20,5);
-    drawStar(275,75,5);
-    drawStar(260,40,10);
-    drawStar(15,165,4);
-    drawStar(55,95 ,4);
+    drawStar(20,180,starSize);
+    drawStar(30,275 ,starSize);
+    drawStar(40,90,starSize);
+    drawStar(50,245 ,starSize);
+    drawStar(60,205,starSize);
+    drawStar(70,290 ,starSize);
+    drawStar(80,15,starSize);
+    drawStar(90,230,starSize);
+    drawStar(100,270,starSize);
+    drawStar(120,195 ,starSize);
+    drawStar(150,110 ,starSize);
+    drawStar(150,260, starSize);
+    drawStar(160,215 ,starSize);
+    drawStar(180,280 ,starSize);
+    drawStar(200,240 ,starSize);
+    drawStar(220,20 ,starSize);
+    drawStar(230,285 ,starSize);
+    drawStar(240,205 ,starSize);
+    drawStar(260,255 ,starSize);
+    drawStar(265,40,starSize);
+    drawStar(280,85 ,starSize);
+    drawStar(280,225 ,starSize);
    }
    else{ 
     stroke(102, 125, 179); //dark blue stars
-    drawStar(65,180,10);
-    drawStar(230,20,5);
-    drawStar(275,75,5);
-    drawStar(260,40,10);
-    drawStar(15,165,4);
-    drawStar(55,95 ,4);
+    drawStar(20,180,starSize);
+    drawStar(30,275 ,starSize);
+    drawStar(40,90,starSize);
+    drawStar(50,245 ,starSize);
+    drawStar(60,205,starSize);
+    drawStar(70,290 ,starSize);
+    drawStar(80,15,starSize);
+    drawStar(90,230,starSize);
+    drawStar(100,270,starSize);
+    drawStar(120,195 ,starSize);
+    drawStar(150,110 ,starSize);
+    drawStar(150,260, starSize);
+    drawStar(160,215 ,starSize);
+    drawStar(180,280 ,starSize);
+    drawStar(200,240 ,starSize);
+    drawStar(220,20 ,starSize);
+    drawStar(230,285 ,starSize);
+    drawStar(240,205 ,starSize);
+    drawStar(260,255 ,starSize);
+    drawStar(265,40,starSize);
+    drawStar(280,85 ,starSize);
+    drawStar(280,225 ,starSize);
   }
 
-  if(mouseX > 150){ 
+  if(mouseX < 150){ 
     fill(172, 172, 173); //grey moon
     noStroke();
     ellipse(40,40,55,55);
@@ -111,7 +146,7 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
   curveVertex(100,185);
   endShape();
 
-  if(mouseX > 150){ 
+  if(mouseX < 150){ 
     fill(73,171,129); //darker green rocket body
    noStroke();
    beginShape();
@@ -167,7 +202,7 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
    
 
 
- if(mouseX > 150){ 
+ if(mouseX < 150){ 
   translate(140, 30);
   fill(251,255,194); // cream big stars
   noStroke();
@@ -243,7 +278,7 @@ function drawStar(x, y, s) { // star
  }
  
  function drawPlanet(x,y, l, w) { // small yellow planet
-  if(mouseX > 150){ 
+  if(mouseX < 150){ 
   fill(253, 255, 199) //cream
   noStroke();
   ellipse(x,y,l,w); //175, 75, 50, 50
@@ -272,7 +307,7 @@ function drawStar(x, y, s) { // star
  }
 
  function drawLargePlanet(x,y, l, w) { // big planet
-  if(mouseX > 150){ 
+  if(mouseX < 150){ 
 
     fill(242, 201, 162); //pale orangy planet
     noStroke();
@@ -307,7 +342,7 @@ function drawStar(x, y, s) { // star
  }
 
  function drawRingPlanet(x,y, l, w) { // small yellow planet
-  if(mouseX > 150){ 
+  if(mouseX < 150){ 
     fill(185, 240, 215); //teal
     noStroke();
     ellipse(x,y,l,w); //220, 40, 65, 65
