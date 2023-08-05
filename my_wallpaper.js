@@ -13,7 +13,7 @@ let starSize = 2 //2
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(A3);
+  pWallpaper.resolution(FIT_TO_SCREEN);
   pWallpaper.show_guide(false); 
 
   //Grid settings
