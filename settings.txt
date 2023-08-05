@@ -8,6 +8,8 @@ Your final settings.txt will look something like this when you are finished:
 
 Wallpaper 1:
 
+// mouse on left side of screen
+
 let planetX  = 190; // 190
 let planetY = 180; // 180
 let planetS = 70; // 70
@@ -35,6 +37,8 @@ function setup_wallpaper(pWallpaper) {
 
 Wallpaper 2:
 
+// mouse on right side of screen
+
 let rect_width  = 10;
 let rect_height = 10;
 let paramter1 = 20;
@@ -57,6 +61,8 @@ function setup_wallpaper(pWallpaper) {
 /////////////////////////////////
 
 Wallpaper 3:
+
+// mouse on left side of screen
 
 let planetX  =190;
 let planetY = 180; 
@@ -85,6 +91,8 @@ function setup_wallpaper(pWallpaper) {
 /////////////////////////////////
 
 Wallpaper 4:
+
+// mouse on right side of screen
 
 let planetX  = 190;
 let planetY = 180; 
@@ -115,6 +123,8 @@ function setup_wallpaper(pWallpaper) {
 
 Wallpaper 5:
 
+// mouse on left side of screen
+
 let planetX  =190; 
 let planetY = 180; 
 let planetS = 50;
@@ -142,6 +152,8 @@ function setup_wallpaper(pWallpaper) {
 /////////////////////////////////
 
 Wallpaper 6:
+
+// mouse on right side of screen
 
 let planetX  = 220; 
 let planetY = 130; 
@@ -171,6 +183,8 @@ function setup_wallpaper(pWallpaper) {
 
 Wallpaper 7:
 
+// mouse on left side of screen
+
 let planetX  =190; 
 let planetY = 1; 
 let planetS = 50; 
@@ -198,6 +212,8 @@ function setup_wallpaper(pWallpaper) {
 
 Wallpaper 8:
 
+// mouse on right side of screen
+
 let planetX  = 180; 
 let planetY = 150; 
 let planetS = 50; 
@@ -224,6 +240,8 @@ function setup_wallpaper(pWallpaper) {
 /////////////////////////////////
 
 Wallpaper 9:
+
+// mouse on left side of screen
 
 let planetX  = 40; 
 let planetY = 240; 
