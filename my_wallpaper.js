@@ -1,19 +1,19 @@
 //your parameter variables go here!
-let planetX  = 190; // 180
-let planetY = 180; // 150
-let planetS = 70; // 50
-let bigPlanetX = 290; // 190
-let bigPlanetY = 150;  // 70
-let bigPlanetS = 100 // 80
-let ringPlanetX = 180; // 220
-let ringPlanetY = 1; // 40
+let planetX  = 190; // 190
+let planetY = 180; // 180
+let planetS = 70; // 70
+let bigPlanetX = 290; // 290
+let bigPlanetY = 150;  // 150
+let bigPlanetS = 100 // 100
+let ringPlanetX = 180; // 180
+let ringPlanetY = 1; // 1
 let ringPlanetS = 65; //65
-let starSize = 2 //5
+let starSize = 2 //2
 
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(A3);
   pWallpaper.show_guide(false); 
 
   //Grid settings
